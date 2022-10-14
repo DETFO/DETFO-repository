@@ -1,0 +1,32 @@
+<!-- 
+    Descripcion: Formulario que captura un nombre.
+    Autor: Daniel Torres
+    Fecha: 12 de Octubre de 2022
+ -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo</title>
+    <link rel="stylesheet" href="../CSS/greeting.css">
+</head>
+<body>
+       <center> <h1>Greeting Formulario</h1>
+       <hr>
+    <!-- 
+        Forma que captura con método GET  
+    -->
+    <form action="../PHP/greeting.php" method="post">
+        <label for="nombre">Ingresa Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="nombre">Ingresa Edad</label>
+        <input type="text" name="edad" id="edad">
+        <label for="nombre">Ingresa Teléfono</label>
+        <input type="text" name="telefono" id="telefono">
+        <input type="Submit" value="Saludar">
+    </form>
+</center> 
+</body>
+</html>
