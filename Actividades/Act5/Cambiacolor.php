@@ -1,3 +1,8 @@
+<!-- 
+    Descripcion: Formulario que cambia de color un texto.
+    Autor: Daniel Torres
+    Fecha: 05 de Octubre de 2022
+ -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
